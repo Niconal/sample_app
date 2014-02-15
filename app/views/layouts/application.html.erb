@@ -5,14 +5,14 @@
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-    
+    <%= stylesheet_link_tag "custom" %>
 	<%= stylesheet_link_tag "http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" %>
 	<%= javascript_include_tag "http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js" %>
 	<%= javascript_include_tag "http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js" %>
 	<%= csrf_meta_tags %>
     <%= render "layouts/shim"%>
   </head>
-  <body>
+  <body style="padding-top: 60px;">
     <%= render "layouts/header"%>
     <div class="container">
 	
